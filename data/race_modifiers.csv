@@ -1,0 +1,75 @@
+Race (Subrace),STR,DEX,CON,INT,WIS,CHA,Source
+Dwarf (Hill),,,2,,1,,Player's Handbook
+Dwarf (Mountain),2,,2,,,,Player's Handbook
+Elf (High),,2,,1,,,Player's Handbook
+Elf (Wood),,2,,,1,,Player's Handbook
+Elf (Drow),,2,,,,1,Player's Handbook
+Halfling (Lightfoot),,2,,,,1,Player's Handbook
+Halfling (Stout),,2,1,,,,Player's Handbook
+Human,1,1,1,1,1,1,Player's Handbook
+Human (Variant)—+1 to any two,#ERROR!,#ERROR!,#ERROR!,#ERROR!,#ERROR!,#ERROR!,Player's Handbook
+Dragonborn,2,,,,,1,Player's Handbook
+Gnome (Forest),,1,,2,,,Player's Handbook
+Gnome (Rock),,,1,2,,,Player's Handbook
+Half-Elf—+1 to any two,#ERROR!,#ERROR!,#ERROR!,#ERROR!,#ERROR!,2,Player's Handbook
+Half-Orc,2,,1,,,,Player's Handbook
+Tiefling,,,,1,,2,Player's Handbook
+Aasimar,,,,,1,2,Dungeon Master's Guide
+Elf (Eladrin),,2,,1,,,Dungeon Master's Guide
+Aarakocra,,2,,,1,,Elemental Evil Player's Companion
+Gnome (Deep),,1,,2,,,Elemental Evil Player's Companion
+Genasi (Air),,1,2,,,,Elemental Evil Player's Companion
+Genasi (Earth),1,,2,,,,Elemental Evil Player's Companion
+Genasi (Fire),,,2,1,,,Elemental Evil Player's Companion
+Genasi (Water),,,2,,1,,Elemental Evil Player's Companion
+Goliath,2,,1,,,,Elemental Evil Player's Companion
+Dwarf (Gray/Duergar),1,,2,,,,Sword Coast Adventurer's Guide
+Halfling (Ghostwise),,2,,,1,,Sword Coast Adventurer's Guide
+"Gnome (Deep, Svirfneblin)",,1,,2,,,Sword Coast Adventurer's Guide
+Tiefling (Feral),,2,,1,,,Sword Coast Adventurer's Guide
+Aasimar (Protector),,,,,1,2,Volo's Guide to Monsters
+Aasimar (Scourge),,,1,,,2,Volo's Guide to Monsters
+Aasimar (Fallen),1,,,,,2,Volo's Guide to Monsters
+Firbolg,1,,,,2,,Volo's Guide to Monsters
+Goliath,2,,1,,,,Volo's Guide to Monsters
+Kenku,,2,,,1,,Volo's Guide to Monsters
+Lizardfolk,,,2,,1,,Volo's Guide to Monsters
+Tabaxi,,2,,,,1,Volo's Guide to Monsters
+Triton,1,,1,,,1,Volo's Guide to Monsters
+Bugbear,2,1,,,,,Volo's Guide to Monsters
+Goblin,,2,1,,,,Volo's Guide to Monsters
+Hobgoblin,,,2,1,,,Volo's Guide to Monsters
+Kobold,,2,,,,,Volo's Guide to Monsters
+Orc,2,,1,,,,Volo's Guide to Monsters
+Yuan-ti Pureblood,,,,1,,2,Volo's Guide to Monsters
+Elf (Eladrin),,2,,,,1,Mordenkainen's Tome of Foes
+Elf (Sea),,2,1,,,,Mordenkainen's Tome of Foes
+Elf (Shadar-kai),,2,1,,,,Mordenkainen's Tome of Foes
+Dwarf (Duergar),1,,2,,,,Mordenkainen's Tome of Foes
+Githyanki,2,,,1,,,Mordenkainen's Tome of Foes
+Githzerai,,,,1,2,,Mordenkainen's Tome of Foes
+Gnome (Deep),,1,,2,,,Mordenkainen's Tome of Foes
+Tortle,2,,,,1,,The Tortle Package
+Verdan,,,1,,,2,Acquisitions Incorporated
+Changeling—+1 to any one,#ERROR!,#ERROR!,#ERROR!,#ERROR!,#ERROR!,2,Eberron: Rising from the Last War
+Bugbear,2,1,,,,,Eberron: Rising from the Last War
+Goblin,,2,1,,,,Eberron: Rising from the Last War
+Hobgoblin,,,2,1,,,Eberron: Rising from the Last War
+Kalashtar,,,,,2,1,Eberron: Rising from the Last War
+Orc,2,,1,,,,Eberron: Rising from the Last War
+Shifter (Beasthide),1,,2,,,,Eberron: Rising from the Last War
+Shifter (Longtooth),2,1,,,,,Eberron: Rising from the Last War
+Shifter (Swiftstride),,2,,,,1,Eberron: Rising from the Last War
+Swiftstride (Wildhunt),,1,,,2,,Eberron: Rising from the Last War
+Warforged—+1 to any one,#ERROR!,#ERROR!,2,#ERROR!,#ERROR!,#ERROR!,Eberron: Rising from the Last War
+Centaur,2,,,,1,,Eberron: Rising from the Last War
+Goblin,,2,1,,,,Guildmasters' Guide to Ravnica
+Loxodon,,,2,,1,,Guildmasters' Guide to Ravnica
+Minotaur,2,,1,,,,Guildmasters' Guide to Ravnica
+Simic Hybrid—+1 to any one,#ERROR!,#ERROR!,2,#ERROR!,#ERROR!,#ERROR!,Guildmasters' Guide to Ravnica
+Vedalken,,,,2,1,,Guildmasters' Guide to Ravnica
+Centaur,2,,,,1,,Mythic Odysseys of Theros
+Leonin,1,,2,,,,Mythic Odysseys of Theros
+Minotaur,2,,1,,,,Mythic Odysseys of Theros
+Satyr,,1,,,,2,Mythic Odysseys of Theros
+Triton,1,,1,,,1,Mythic Odysseys of Theros

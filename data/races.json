@@ -1,0 +1,506 @@
+{
+    "Dwarf (Hill)": {
+        "strength": 0,
+        "dexterity": 0,
+        "constitution": 2,
+        "intelligence": 0,
+        "wisdom": 1,
+        "charisma": 0
+    },
+    "Dwarf (Mountain)": {
+        "strength": 2,
+        "dexterity": 0,
+        "constitution": 2,
+        "intelligence": 0,
+        "wisdom": 0,
+        "charisma": 0
+    },
+    "Elf (High)": {
+        "strength": 0,
+        "dexterity": 2,
+        "constitution": 0,
+        "intelligence": 1,
+        "wisdom": 0,
+        "charisma": 0
+    },
+    "Elf (Wood)": {
+        "strength": 0,
+        "dexterity": 2,
+        "constitution": 0,
+        "intelligence": 0,
+        "wisdom": 1,
+        "charisma": 0
+    },
+    "Elf (Drow)": {
+        "strength": 0,
+        "dexterity": 2,
+        "constitution": 0,
+        "intelligence": 0,
+        "wisdom": 0,
+        "charisma": 1
+    },
+    "Halfling (Lightfoot)": {
+        "strength": 0,
+        "dexterity": 2,
+        "constitution": 0,
+        "intelligence": 0,
+        "wisdom": 0,
+        "charisma": 1
+    },
+    "Halfling (Stout)": {
+        "strength": 0,
+        "dexterity": 2,
+        "constitution": 1,
+        "intelligence": 0,
+        "wisdom": 0,
+        "charisma": 0
+    },
+    "Human": {
+        "strength": 1,
+        "dexterity": 1,
+        "constitution": 1,
+        "intelligence": 1,
+        "wisdom": 1,
+        "charisma": 1
+    },
+    "Human (Variant)\u2014+1 to any two": {
+        "strength": 0,
+        "dexterity": 0,
+        "constitution": 0,
+        "intelligence": 0,
+        "wisdom": 0,
+        "charisma": 0
+    },
+    "Dragonborn": {
+        "strength": 2,
+        "dexterity": 0,
+        "constitution": 0,
+        "intelligence": 0,
+        "wisdom": 0,
+        "charisma": 1
+    },
+    "Gnome (Forest)": {
+        "strength": 0,
+        "dexterity": 1,
+        "constitution": 0,
+        "intelligence": 2,
+        "wisdom": 0,
+        "charisma": 0
+    },
+    "Gnome (Rock)": {
+        "strength": 0,
+        "dexterity": 0,
+        "constitution": 1,
+        "intelligence": 2,
+        "wisdom": 0,
+        "charisma": 0
+    },
+    "Half-Elf\u2014+1 to any two": {
+        "strength": 0,
+        "dexterity": 0,
+        "constitution": 0,
+        "intelligence": 0,
+        "wisdom": 0,
+        "charisma": 2
+    },
+    "Half-Orc": {
+        "strength": 2,
+        "dexterity": 0,
+        "constitution": 1,
+        "intelligence": 0,
+        "wisdom": 0,
+        "charisma": 0
+    },
+    "Tiefling": {
+        "strength": 0,
+        "dexterity": 0,
+        "constitution": 0,
+        "intelligence": 1,
+        "wisdom": 0,
+        "charisma": 2
+    },
+    "Aasimar": {
+        "strength": 0,
+        "dexterity": 0,
+        "constitution": 0,
+        "intelligence": 0,
+        "wisdom": 1,
+        "charisma": 2
+    },
+    "Elf (Eladrin)": {
+        "strength": 0,
+        "dexterity": 2,
+        "constitution": 0,
+        "intelligence": 0,
+        "wisdom": 0,
+        "charisma": 1
+    },
+    "Aarakocra": {
+        "strength": 0,
+        "dexterity": 2,
+        "constitution": 0,
+        "intelligence": 0,
+        "wisdom": 1,
+        "charisma": 0
+    },
+    "Gnome (Deep)": {
+        "strength": 0,
+        "dexterity": 1,
+        "constitution": 0,
+        "intelligence": 2,
+        "wisdom": 0,
+        "charisma": 0
+    },
+    "Genasi (Air)": {
+        "strength": 0,
+        "dexterity": 1,
+        "constitution": 2,
+        "intelligence": 0,
+        "wisdom": 0,
+        "charisma": 0
+    },
+    "Genasi (Earth)": {
+        "strength": 1,
+        "dexterity": 0,
+        "constitution": 2,
+        "intelligence": 0,
+        "wisdom": 0,
+        "charisma": 0
+    },
+    "Genasi (Fire)": {
+        "strength": 0,
+        "dexterity": 0,
+        "constitution": 2,
+        "intelligence": 1,
+        "wisdom": 0,
+        "charisma": 0
+    },
+    "Genasi (Water)": {
+        "strength": 0,
+        "dexterity": 0,
+        "constitution": 2,
+        "intelligence": 0,
+        "wisdom": 1,
+        "charisma": 0
+    },
+    "Goliath": {
+        "strength": 2,
+        "dexterity": 0,
+        "constitution": 1,
+        "intelligence": 0,
+        "wisdom": 0,
+        "charisma": 0
+    },
+    "Dwarf (Gray/Duergar)": {
+        "strength": 1,
+        "dexterity": 0,
+        "constitution": 2,
+        "intelligence": 0,
+        "wisdom": 0,
+        "charisma": 0
+    },
+    "Halfling (Ghostwise)": {
+        "strength": 0,
+        "dexterity": 2,
+        "constitution": 0,
+        "intelligence": 0,
+        "wisdom": 1,
+        "charisma": 0
+    },
+    "Gnome (Deep, Svirfneblin)": {
+        "strength": 0,
+        "dexterity": 1,
+        "constitution": 0,
+        "intelligence": 2,
+        "wisdom": 0,
+        "charisma": 0
+    },
+    "Tiefling (Feral)": {
+        "strength": 0,
+        "dexterity": 2,
+        "constitution": 0,
+        "intelligence": 1,
+        "wisdom": 0,
+        "charisma": 0
+    },
+    "Aasimar (Protector)": {
+        "strength": 0,
+        "dexterity": 0,
+        "constitution": 0,
+        "intelligence": 0,
+        "wisdom": 1,
+        "charisma": 2
+    },
+    "Aasimar (Scourge)": {
+        "strength": 0,
+        "dexterity": 0,
+        "constitution": 1,
+        "intelligence": 0,
+        "wisdom": 0,
+        "charisma": 2
+    },
+    "Aasimar (Fallen)": {
+        "strength": 1,
+        "dexterity": 0,
+        "constitution": 0,
+        "intelligence": 0,
+        "wisdom": 0,
+        "charisma": 2
+    },
+    "Firbolg": {
+        "strength": 1,
+        "dexterity": 0,
+        "constitution": 0,
+        "intelligence": 0,
+        "wisdom": 2,
+        "charisma": 0
+    },
+    "Kenku": {
+        "strength": 0,
+        "dexterity": 2,
+        "constitution": 0,
+        "intelligence": 0,
+        "wisdom": 1,
+        "charisma": 0
+    },
+    "Lizardfolk": {
+        "strength": 0,
+        "dexterity": 0,
+        "constitution": 2,
+        "intelligence": 0,
+        "wisdom": 1,
+        "charisma": 0
+    },
+    "Tabaxi": {
+        "strength": 0,
+        "dexterity": 2,
+        "constitution": 0,
+        "intelligence": 0,
+        "wisdom": 0,
+        "charisma": 1
+    },
+    "Triton": {
+        "strength": 1,
+        "dexterity": 0,
+        "constitution": 1,
+        "intelligence": 0,
+        "wisdom": 0,
+        "charisma": 1
+    },
+    "Bugbear": {
+        "strength": 2,
+        "dexterity": 1,
+        "constitution": 0,
+        "intelligence": 0,
+        "wisdom": 0,
+        "charisma": 0
+    },
+    "Goblin": {
+        "strength": 0,
+        "dexterity": 2,
+        "constitution": 1,
+        "intelligence": 0,
+        "wisdom": 0,
+        "charisma": 0
+    },
+    "Hobgoblin": {
+        "strength": 0,
+        "dexterity": 0,
+        "constitution": 2,
+        "intelligence": 1,
+        "wisdom": 0,
+        "charisma": 0
+    },
+    "Kobold": {
+        "strength": 0,
+        "dexterity": 2,
+        "constitution": 0,
+        "intelligence": 0,
+        "wisdom": 0,
+        "charisma": 0
+    },
+    "Orc": {
+        "strength": 2,
+        "dexterity": 0,
+        "constitution": 1,
+        "intelligence": 0,
+        "wisdom": 0,
+        "charisma": 0
+    },
+    "Yuan-ti Pureblood": {
+        "strength": 0,
+        "dexterity": 0,
+        "constitution": 0,
+        "intelligence": 1,
+        "wisdom": 0,
+        "charisma": 2
+    },
+    "Elf (Sea)": {
+        "strength": 0,
+        "dexterity": 2,
+        "constitution": 1,
+        "intelligence": 0,
+        "wisdom": 0,
+        "charisma": 0
+    },
+    "Elf (Shadar-kai)": {
+        "strength": 0,
+        "dexterity": 2,
+        "constitution": 1,
+        "intelligence": 0,
+        "wisdom": 0,
+        "charisma": 0
+    },
+    "Dwarf (Duergar)": {
+        "strength": 1,
+        "dexterity": 0,
+        "constitution": 2,
+        "intelligence": 0,
+        "wisdom": 0,
+        "charisma": 0
+    },
+    "Githyanki": {
+        "strength": 2,
+        "dexterity": 0,
+        "constitution": 0,
+        "intelligence": 1,
+        "wisdom": 0,
+        "charisma": 0
+    },
+    "Githzerai": {
+        "strength": 0,
+        "dexterity": 0,
+        "constitution": 0,
+        "intelligence": 1,
+        "wisdom": 2,
+        "charisma": 0
+    },
+    "Tortle": {
+        "strength": 2,
+        "dexterity": 0,
+        "constitution": 0,
+        "intelligence": 0,
+        "wisdom": 1,
+        "charisma": 0
+    },
+    "Verdan": {
+        "strength": 0,
+        "dexterity": 0,
+        "constitution": 1,
+        "intelligence": 0,
+        "wisdom": 0,
+        "charisma": 2
+    },
+    "Changeling\u2014+1 to any one": {
+        "strength": 0,
+        "dexterity": 0,
+        "constitution": 0,
+        "intelligence": 0,
+        "wisdom": 0,
+        "charisma": 2
+    },
+    "Kalashtar": {
+        "strength": 0,
+        "dexterity": 0,
+        "constitution": 0,
+        "intelligence": 0,
+        "wisdom": 2,
+        "charisma": 1
+    },
+    "Shifter (Beasthide)": {
+        "strength": 1,
+        "dexterity": 0,
+        "constitution": 2,
+        "intelligence": 0,
+        "wisdom": 0,
+        "charisma": 0
+    },
+    "Shifter (Longtooth)": {
+        "strength": 2,
+        "dexterity": 1,
+        "constitution": 0,
+        "intelligence": 0,
+        "wisdom": 0,
+        "charisma": 0
+    },
+    "Shifter (Swiftstride)": {
+        "strength": 0,
+        "dexterity": 2,
+        "constitution": 0,
+        "intelligence": 0,
+        "wisdom": 0,
+        "charisma": 1
+    },
+    "Swiftstride (Wildhunt)": {
+        "strength": 0,
+        "dexterity": 1,
+        "constitution": 0,
+        "intelligence": 0,
+        "wisdom": 2,
+        "charisma": 0
+    },
+    "Warforged\u2014+1 to any one": {
+        "strength": 0,
+        "dexterity": 0,
+        "constitution": 2,
+        "intelligence": 0,
+        "wisdom": 0,
+        "charisma": 0
+    },
+    "Centaur": {
+        "strength": 2,
+        "dexterity": 0,
+        "constitution": 0,
+        "intelligence": 0,
+        "wisdom": 1,
+        "charisma": 0
+    },
+    "Loxodon": {
+        "strength": 0,
+        "dexterity": 0,
+        "constitution": 2,
+        "intelligence": 0,
+        "wisdom": 1,
+        "charisma": 0
+    },
+    "Minotaur": {
+        "strength": 2,
+        "dexterity": 0,
+        "constitution": 1,
+        "intelligence": 0,
+        "wisdom": 0,
+        "charisma": 0
+    },
+    "Simic Hybrid\u2014+1 to any one": {
+        "strength": 0,
+        "dexterity": 0,
+        "constitution": 2,
+        "intelligence": 0,
+        "wisdom": 0,
+        "charisma": 0
+    },
+    "Vedalken": {
+        "strength": 0,
+        "dexterity": 0,
+        "constitution": 0,
+        "intelligence": 2,
+        "wisdom": 1,
+        "charisma": 0
+    },
+    "Leonin": {
+        "strength": 1,
+        "dexterity": 0,
+        "constitution": 2,
+        "intelligence": 0,
+        "wisdom": 0,
+        "charisma": 0
+    },
+    "Satyr": {
+        "strength": 0,
+        "dexterity": 1,
+        "constitution": 0,
+        "intelligence": 0,
+        "wisdom": 0,
+        "charisma": 2
+    }
+}
