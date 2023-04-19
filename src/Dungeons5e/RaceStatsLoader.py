@@ -1,0 +1,3 @@
+class RaceStatsLoader(object):
+
+    def 

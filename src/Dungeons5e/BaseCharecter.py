@@ -1,15 +1,6 @@
 import dataclasses
 
-class CharecterRace(object):
-    strength: int
-    dexterity: int
-    wisdom: int
-    charisma: int
-    constitution: int
-    intelligence: int
 
-class CharecterClass(object):
-    pass
 
 @dataclasses.dataclass
 class BaseCharecterStats(object):
