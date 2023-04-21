@@ -1,13 +1,21 @@
 import abc
-from typing import List
+from typing import List, Set
+
+class BaseDndStatObserver(abc.ABC):
+    @abc.abstractmethod
+    def update(self, updated, fields: List[str]=[]):
+        pass
 
 class BaseDndStat(object):
-    strength: int = 0
-    dexterity: int = 0
-    intelligence: int = 0
-    wisdom: int = 0
-    constitution: int = 0
-    charisma: int = 0
+    strength: int
+    dexterity: int
+    charisma: int
+    intelligence: int
+    wisdom: int
+    constitution: int
+
+    def __init__(self):
+        self._observers: Set[BaseDndStatObserver] = set()
 
     @staticmethod
     def get_modifier(stat):
@@ -95,24 +103,38 @@ class BaseDndStat(object):
         new_stat_object.charisma = self.charisma + other.charisma
         return new_stat_object
     
-class BaseDndStatCombiner(object):
-    def __init__(self, combinables: List[BaseDndStat]) -> None:
-        self._combinables = combinables
-        self._current_result = BaseDndStat()
-        self._current_result.strength = 0
-        self._current_result.dexterity = 0
-        self._current_result.intelligence = 0
-        self._current_result.wisdom = 0
-        self._current_result.constitution = 0
-        self._current_result.charisma = 0
-        
-        for i in self._combinables:
-            self._current_result += i
+    def __iadd__(self, other):
+        #new_stat_object = BaseDndStat()
+        self.strength = self.strength + other.strength
+        self.dexterity = self.dexterity + other.dexterity
+        self.intelligence = self.intelligence + other.intelligence
+        self.wisdom = self.wisdom + other.wisdom
+        self.constitution = self.constitution + other.constitution
+        self.charisma = self.charisma + other.charisma
+        return self
+    
+    def signal_update(self, fields: List[str] = []):
+        for observer in self._observers:
+            observer.update(self, fields)
+    
+    def attach(self, observer: BaseDndStatObserver):
+        self._observers.add(observer)
 
-    def add_new_combinable(self, new_stat: BaseDndStat):
-        self._current_result += new_stat
+    def clear(self):
+        self.strength = 0
+        self.charisma = 0
+        self.intelligence = 0
+        self.dexterity = 0
+        self.constitution = 0
+        self.wisdom = 0
 
-    def remove_combinable(self, index: int):
-        obj = self._combinables[index]
-        self._combinables.pop(index)
-        self._current_result -= obj
+    @staticmethod
+    def from_pyd_object(pyd_object):
+        new_stat = BaseDndStat()
+        new_stat.strength: int = pyd_object.strength
+        new_stat.dexterity: int = pyd_object.dexterity
+        new_stat.charisma: int = pyd_object.charisma
+        new_stat.intelligence: int = pyd_object.intelligence
+        new_stat.wisdom: int = pyd_object.wisdom
+        new_stat.constitution: int = pyd_object.constitution
+        return new_stat
